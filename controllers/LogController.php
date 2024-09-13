@@ -11,7 +11,7 @@ class LogController extends Controller
     {
         $message = 'Default log message';
         try {
-            $logger = LoggerFactory::createLogger(Yii::$app->params['loggerType']);
+            $logger = LoggerFactory::createLogger($this->module->defaultLoggerType);
             $logger->send($message);
         } catch (\Exception $e) {
 

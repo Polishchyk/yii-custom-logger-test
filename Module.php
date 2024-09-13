@@ -9,7 +9,17 @@ class Module extends BaseModule
     /**
      * @var string
      */
-    public $controllerNamespace = 'common\modules\controllers';
+    public $controllerNamespace = 'common\modules\logger\controllers';
+
+    /**
+     * @var string
+     */
+    public $defaultLoggerType;
+
+    /**
+     * @var string
+     */
+    public $adminEmail;
 
     public function init()
     {
