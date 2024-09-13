@@ -86,7 +86,10 @@ public function logToAll()
 Виконане завдання завантажити на GitHub/GitLab/Bitbucket (на свій вибір).
 
 # Інструкція що до установки модуля
-I. Для установки модуля, потрібно клонувати поточний репозиторій в локальну директорію проекта ***common\modules***
+I. Для установки модуля, потрібно клонувати поточний репозиторій в локальну директорію проекта ***common\modules\***
+```shell script
+git clone https://github.com/Polishchyk/yii-custom-logger-test.git ./logger
+```
 
 II. Потрібно налаштувати конфіги ***config\main.php***
 ```php
