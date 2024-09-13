@@ -2,7 +2,7 @@
 
 return [
     'params' => [
-        'defaultLoggerType' => 'file',
+        'defaultLoggerType' => 'file', // file, db or email
         'adminEmail' => 'admin@example.com',
     ],
 ];
